@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-code-standards",
+  "version": "1.0.0",
+  "description": "Code Standards ESLint Plugin",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "code standards",
+    "standards"
+  ],
+  "author": "danlproberts",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "mocha": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}

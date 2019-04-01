@@ -10,6 +10,14 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
+Then, set up an [ESLint](http://eslint.org) config file with:
+
+```
+$ ./node_modules/.bin/eslint --init
+```
+See the [Getting Started Guide](https://eslint.org/docs/user-guide/getting-started) for more help.
+
+
 Next, install `eslint-plugin-code-standards`:
 
 ```
@@ -43,7 +51,11 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+- validation
+    This rule runs a check on your variable initialisation ensuring it conforms with Hungarian Notation as per UI team code standards.
+
+Bugs:
+Please try and break this plugin, please email me @ dlprtechconsulting@gmail.com if you experience issues or new situations that the plugin doesn't account for.
 
 
 

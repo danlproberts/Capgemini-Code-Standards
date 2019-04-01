@@ -57,7 +57,8 @@ Then configure the rules you want to use under the rules section.
 Bugs:
 Please try and break this plugin, please email me @ dlprtechconsulting@gmail.com if you experience issues or new situations that the plugin doesn't account for.
 
+Changes (1.0.1):
 
+- Updated ReadMe to help ESLint set up.
 
-
-
+- Updated critical in dependencies
